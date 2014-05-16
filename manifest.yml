@@ -1,0 +1,9 @@
+---
+# Manifest for testing Python/uWSGI build packs on Cloud Foundry PaaS.
+applications:
+- name: cf_paas_test_python_app
+  memory: 512M
+  instances: 1
+  host: bwhitela-test
+  domain: hack.cpgpaas.com
+  buildpack: https://github.com/joshuamckenty/heroku-buildpack-python.git
