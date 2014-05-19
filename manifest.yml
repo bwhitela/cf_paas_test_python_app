@@ -7,3 +7,4 @@ applications:
   host: bwhitela-test
   domain: hack.cpgpaas.com
   buildpack: https://github.com/joshuamckenty/heroku-buildpack-python.git
+  buildpack: https://github.com/bwhitela/nginx-buildpack.git
